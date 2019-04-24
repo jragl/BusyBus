@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+font-family: sf-pro, sans-serif;
+font-size: 14px;
+text-align: center;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 375px;
+  height: 812px;
+  background-color: white;
+  overflow: hidden;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background-color: #5186AF;
+  height: 20px;
+  margin: 0;
+  padding-top: 2px;
+}
+.status-bar {
+  width: 375px;
+  height: 45px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.status-bar-bottom {
+  width: 375px;
+  height: 38px;
+  text-align: center;
+  vertical-align: bottom;
+}
+/* *** APPLICATION BAR AREA *** */
+    .arrow-left {
+      width: 10%;
+      height: 45px;
+      text-align: left;
+      padding-left: 10px;
+      padding-top: 10px;
+      display: inline-block;
+      float: left;
+    }
+
+    .bus-stop {
+     width: 80%;
+     height: 45px;
+     padding-top: 10px;
+     display: inline-block;
+     float: center;
+    }
+
+    .bus-stop h1 {
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .nav {
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .refresh {
+      width: 10%;
+      height: 45px;
+      text-align: right;
+      padding-right: 12px;
+      padding-top: 10px;
+      display: inline-block;
+      float: right;
+    }
+
+/* *** MAP AREA *** */
+    .map-area {
+      display: block;
+      background-image: url("../images/map.svg");
+      position: relative;
+      width: 375px;
+      height: 329px;
+      margin-top: 0;
+      background-position: center;
+      background-size: cover;
+      background-color: transparent;
+    }
+
+    .map-area h2 {
+      font-size: 15px;
+      color: white;
+      font-weight: lighter;
+      background-color: red;
+      height: 30px;
+      width: 375px;
+      text-align: left;
+      float: center;
+      padding-left: 10px;
+      padding-top: 6px;
+    }
+
+/* *** ROUTE DATA AREA *** */
+    .buses {
+      max-width: 100%;
+    }
+
+   .fixed {
+      width: 100%;
+      height: 25px;
+      background-color: #5186AF;
+      position: -webkit-sticky;
+      position: sticky;
+      top: -1px;
+    }
+
+              .bus-info {
+                width: 100%;
+              }
+
+              .bus-route-info {
+                height: 50px;
+                border-bottom: 1px dashed black;
+              }
+
+                        .direction {
+                          width: 100%;
+                          height: 25px;
+                          background-color: #F1F1F1;
+                        }
+
+                        .direction-first {
+                          width: 100%;
+                          min-height: 25px;
+                          background-color: #F1F1F1;
+                        }
+
+                        .direction h3 {
+                          font-size: 16px;
+                          font-weight: bold;
+                          color: #5186AF;
+                          text-align: left;
+                          padding-top: 4px;
+                          padding-left: 10px;
+                        }
+
+                        .direction-first h3 {
+                          font-size: 16px;
+                          font-weight: bold;
+                          color: #5186AF;
+                          text-align: left;
+                          padding-top: 4px;
+                          padding-left: 10px;
+                        }
+                              .detail-bus-info {
+                                width: 70%;
+                                height: 50px;
+                                text-align: left;
+                                padding-top: 7px;
+                                display: inline-block;
+                                float: left;
+                              }
+
+                                        .bus-name {
+                                          display: inline-block;
+                                        }
+
+                                        .bus-name h5 {
+                                          font-size: 18px;
+                                        }
+
+                                        .bus-number {
+                                          display: inline-block;
+                                        }
+
+                                        .bus-number h5 {
+                                          font-size: 18px;
+                                          font-weight: bold;
+                                          text-align: left;
+                                        }
+
+                                        .frequency h3 {
+                                          font-size: 14px;
+                                          font-style: italic;
+                                          width: 100%;
+                                        }
+
+                        .eta {
+                          width: 20%;
+                          height: 50px;
+                          display: inline-block;
+                          float: left;
+                        }
+
+                        .eta h4 {
+                          text-align: left;
+                          font-weight: lighter;
+                          color: black;
+                          background-color: white;
+                          padding-top: 15px;
+                          padding-left: 10px;
+                        }
+
+                        .swipe-right {
+                          width: 10%;
+                          height: 50px;
+                          text-align: right;
+                          padding-top: 10px;
+                          padding-right: 10px;
+                          float: right;
+                        }
+
+          .eta-header {
+            width: 20%;
+            float: left;
+          }
+
+          .eta-header h4 {
+            text-align: left;
+            padding-top: 5px;
+            padding-left: 10px;
+          }
+
+    .route-data {
+      width: 375px;
+      height: 355px;
+      position: relative;
+      overflow: auto;
+    }
+
+          .served-by {
+            width: 80%;
+            text-align: left;
+            float: right;
+          }
+
+          .served-by h4 {
+            padding-top: 5px;
+          }
