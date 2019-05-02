@@ -25,290 +25,230 @@
         </div>
       </nav>
 
-    <div class="map-area">
-      <h2><span style="font-weight:bold">Next Bus:</span> 60 Randolph/Harbor Dr <span style="font-weight:bold">Arrives:</span> <1 min</h2>
-    </div>
+      <section class="map-area">
+        <h2><span style="font-weight:bold">Next Bus:</span> 60 Randolph/Harbor Dr <span style="font-weight:bold">Arrives:</span> <1 min</h2>
+      </section>
 
-    <section class="route-data">
-        <div class="buses">
-          <div class="fixed">
-                  <div class="eta-header">
+      <section class="buses">
+          <ul class="fixed-header"> <!-- This ul contains the non-scrolling header -->
+                  <li class="eta-header">
                     <h4>ETA</h4>
-                  </div>
-
-                  <div class="served-by">
+                  </li>
+                  <li class="served-by">
                     <h4>Served by</h4>
-                  </div>
-          </div>
-              <ul class="bus-info">
-                  <!-- EASTBOUND -->
+                  </li>
+          </ul>
+
+              <ul class="bus-info"> <!-- Start of scrolling list of bus info -->
+              <!-- EASTBOUND -->
                         <li class="direction-first">
                           <h3>Eastbound</h3>
+                            <!-- BUS 60 -->
+                                  <ul class="bus-route-info">
+                                        <li class="eta">
+                                          <h4>< 1 min</h4>
+                                        </li>
+                                        <ul class="detail-bus-info">
+                                                <li class="bus-number">
+                                                  <h5>60</h5>
+                                                </li>
+                                                <li class="bus-name">
+                                                  <h5>Randolph/Harbor Dr</h5>
+                                                </li>
+                                                <li class="frequency">
+                                                  <h3>Every 20 min</h3>
+                                                </li>
+                                        </ul>
+                                        <li class="swipe-right">
+                                          <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+                                        </li>
+                                  </ul>
+                            <!-- BUS 124 -->
+                                  <ul class="bus-route-info">
+                                        <li class="eta">
+                                          <h4>9 min</h4>
+                                        </li>
+                                        <ul class="detail-bus-info">
+                                                <li class="bus-number">
+                                                  <h5>124</h5>
+                                                </li>
+                                                <li class="bus-name">
+                                                  <h5>Navy Pier</h5>
+                                                </li>
+                                                <li class="frequency">
+                                                  <h3>Every 10 min</h3>
+                                                </li>
+                                        </ul>
+                                        <li class="swipe-right">
+                                          <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+                                        </li>
+                                  </ul>
                         </li>
-                        <!-- BUS 60 -->
-                              <li class="bus-route-info">
-                                    <div class="eta">
-                                      <h4>< 1 min</h4>
-                                    </div>
-
-                                    <section class="detail-bus-info">
-
-                                            <div class="bus-number">
-                                              <h5>60</h5>
-                                            </div>
-
-                                            <div class="bus-name">
-                                              <h5>Randolph/Harbor Dr</h5>
-                                            </div>
-
-                                            <div class="frequency">
-                                              <h3>Every 20 min</h3>
-                                            </div>
-
-                                    </section>
-
-                                    <div class="swipe-right">
-                                      <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-                                    </div>
-
-                              </li>
-                        <!-- BUS 124 -->
-                              <li class="bus-route-info">
-
-                                    <div class="eta">
-                                      <h4>9 min</h4>
-                                    </div>
-
-                                    <section class="detail-bus-info">
-
-                                            <div class="bus-number">
-                                              <h5>124</h5>
-                                            </div>
-
-                                            <div class="bus-name">
-                                              <h5>Navy Pier</h5>
-                                            </div>
-
-                                            <div class="frequency">
-                                              <h3>Every 10 min</h3>
-                                            </div>
-
-                                    </section>
-
-                                    <div class="swipe-right">
-                                      <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-                                    </div>
-
-                              </li>
-                  <!-- NORTHBOUND -->
-                        <li class="direction">
+              <!-- NORTHBOUND -->
+                        <li class="direction-first">
                           <h3>Northbound</h3>
+                            <!-- BUS 151 -->
+                                  <ul class="bus-route-info">
+                                        <li class="eta">
+                                          <h4>6 min</h4>
+                                        </li>
+                                        <ul class="detail-bus-info">
+                                                <li class="bus-number">
+                                                  <h5>151</h5>
+                                                </li>
+                                                <li class="bus-name">
+                                                  <h5>Devon/Clark</h5>
+                                                </li>
+                                                <li class="frequency">
+                                                  <h3>Every 16 min</h3>
+                                                </li>
+                                        </ul>
+                                        <li class="swipe-right">
+                                          <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+                                        </li>
+                                  </ul>
                         </li>
-                        <!-- BUS 151 -->
-                              <li class="bus-route-info">
-                                    <div class="eta">
-                                      <h4>6 min</h4>
-                                    </div>
-
-                                    <section class="detail-bus-info">
-
-                                            <div class="bus-number">
-                                              <h5>151</h5>
-                                            </div>
-
-                                            <div class="bus-name">
-                                              <h5>Devon/Clark</h5>
-                                            </div>
-
-                                            <div class="frequency">
-                                              <h3>Every 16 min</h3>
-                                            </div>
-
-                                    </section>
-
-                                    <div class="swipe-right">
-                                      <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-                                    </div>
-
-                              </li>
-                  <!-- SOUTHBOUND -->
-                        <li class="direction">
+              <!-- SOUTHBOUND -->
+                        <li class="direction-first">
                           <h3>Southbound</h3>
+                            <!-- BUS 124 -->
+                                  <ul class="bus-route-info">
+                                        <li class="eta">
+                                          <h4>9 min</h4>
+                                        </li>
+                                        <ul class="detail-bus-info">
+                                                <li class="bus-number">
+                                                  <h5>124</h5>
+                                                </li>
+                                                <li class="bus-name">
+                                                  <h5>Navy Pier</h5>
+                                                </li>
+                                                <li class="frequency">
+                                                  <h3>Every 10 min</h3>
+                                                </li>
+                                        </ul>
+                                        <li class="swipe-right">
+                                          <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+                                        </li>
+                                  </ul>
+                            <!-- BUS J14 -->
+                                  <ul class="bus-route-info">
+                                        <li class="eta">
+                                          <h4>12 min</h4>
+                                        </li>
+                                        <ul class="detail-bus-info">
+                                                <li class="bus-number">
+                                                  <h5>J14</h5>
+                                                </li>
+                                                <li class="bus-name">
+                                                  <h5>103rd/Stony Island</h5>
+                                                </li>
+                                                <li class="frequency">
+                                                  <h3>Every 15 min</h3>
+                                                </li>
+                                        </ul>
+                                        <li class="swipe-right">
+                                          <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+                                        </li>
+                                  </ul>
                         </li>
-                        <!-- BUS 124 -->
-                              <li class="bus-route-info">
-                                    <div class="eta">
-                                      <h4>9 min</h4>
-                                    </div>
-
-                                    <section class="detail-bus-info">
-
-                                            <div class="bus-number">
-                                              <h5>124</h5>
-                                            </div>
-
-                                            <div class="bus-name">
-                                              <h5>Navy Pier</h5>
-                                            </div>
-
-                                            <div class="frequency">
-                                              <h3>Every 10 min</h3>
-                                            </div>
-
-                                    </section>
-
-                                    <div class="swipe-right">
-                                      <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-                                    </div>
-
-                              </li>
-                        <!-- BUS J14 -->
-                              <li class="bus-route-info">
-                                    <div class="eta">
-                                      <h4>12 min</h4>
-                                    </div>
-
-                                    <section class="detail-bus-info">
-
-                                            <div class="bus-number">
-                                              <h5>J14</h5>
-                                            </div>
-
-                                            <div class="bus-name">
-                                              <h5>103rd/Stony Island</h5>
-                                            </div>
-
-                                            <div class="frequency">
-                                              <h3>Every 15 min</h3>
-                                            </div>
-
-                                    </section>
-
-                                    <div class="swipe-right">
-                                      <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-                                    </div>
-                              </li>
-                  <!-- REROUTE -->
-                        <li class="direction">
+              <!-- REROUTE -->
+                        <li class="direction-first">
                           <h3>Reroute</h3>
+                            <!-- BUS 6x -->
+                                  <ul class="bus-route-info">
+                                        <li class="eta">
+                                          <h4>18 min</h4>
+                                        </li>
+                                        <ul class="detail-bus-info">
+                                                <li class="bus-number">
+                                                  <h5>6x</h5>
+                                                </li>
+                                                <li class="bus-name">
+                                                  <h5>Jackson Park Express</h5>
+                                                </li>
+                                                <li class="frequency">
+                                                  <h3>N/A</h3>
+                                                </li>
+                                        </ul>
+                                        <li class="swipe-right">
+                                          <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+                                        </li>
+                                  </ul>
                         </li>
-                        <!-- BUS 6x -->
-                              <li class="bus-route-info">
-                                    <div class="eta">
-                                      <h4>18 min</h4>
-                                    </div>
 
-                                    <section class="detail-bus-info">
-
-                                            <div class="bus-number">
-                                              <h5>6x</h5>
-                                            </div>
-
-                                            <div class="bus-name">
-                                              <h5>Jackson Park Express</h5>
-                                            </div>
-
-                                            <div class="frequency">
-                                              <h3>N/A</h3>
-                                            </div>
-
-                                    </section>
-
-                                    <div class="swipe-right">
-                                      <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-                                    </div>
-                              </li>
-                  <!-- OUT OF SERVICE -->
-                        <li class="direction">
+              <!-- OUT OF SERVICE -->
+                        <li class="direction-first">
                           <h3>Out of Service</h3>
+                            <!-- BUS 4 -->
+                                  <ul class="bus-route-info">
+                                        <li class="eta">
+                                          <h4>N/A</h4>
+                                        </li>
+                                        <ul class="detail-bus-info">
+                                                <li class="bus-number">
+                                                  <h5>4</h5>
+                                                </li>
+                                                <li class="bus-name">
+                                                  <h5>Cottage Grove</h5>
+                                                </li>
+                                                <li class="frequency">
+                                                  <h3>Resumes 12:10am</h3>
+                                                </li>
+                                        </ul>
+                                        <li class="swipe-right">
+                                          <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+                                        </li>
+                                  </ul>
+                            <!-- BUS 20 -->
+                                  <ul class="bus-route-info">
+                                        <li class="eta">
+                                          <h4>N/A</h4>
+                                        </li>
+                                        <ul class="detail-bus-info">
+                                                <li class="bus-number">
+                                                  <h5>20</h5>
+                                                </li>
+                                                <li class="bus-name">
+                                                  <h5>Madison</h5>
+                                                </li>
+                                                <li class="frequency">
+                                                  <h3>Resumes 12:10am</h3>
+                                                </li>
+                                        </ul>
+                                        <li class="swipe-right">
+                                          <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+                                        </li>
+                                  </ul>
+                            <!-- BUS 157 -->
+                                  <ul class="bus-route-info">
+                                        <li class="eta">
+                                          <h4>N/A</h4>
+                                        </li>
+                                        <ul class="detail-bus-info">
+                                                <li class="bus-number">
+                                                  <h5>157</h5>
+                                                </li>
+                                                <li class="bus-name">
+                                                  <h5>Streeterville/Taylor</h5>
+                                                </li>
+                                                <li class="frequency">
+                                                  <h3>Resumes 6:00am</h3>
+                                                </li>
+                                        </ul>
+                                        <li class="swipe-right">
+                                          <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+                                        </li>
+                                  </ul>
                         </li>
-                        <!-- BUS 4 -->
-                              <li class="bus-route-info">
-                                    <div class="eta">
-                                      <h4>N/A</h4>
-                                    </div>
-
-                                    <section class="detail-bus-info">
-
-                                            <div class="bus-number">
-                                              <h5>4</h5>
-                                            </div>
-
-                                            <div class="bus-name">
-                                              <h5>Cottage Grove</h5>
-                                            </div>
-
-                                            <div class="frequency">
-                                              <h3>Resumes 12:10am</h3>
-                                            </div>
-
-                                    </section>
-
-                                    <div class="swipe-right">
-                                      <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-                                    </div>
-
-                              </li>
-                        <!-- BUS 20 -->
-                              <li class="bus-route-info">
-                                    <div class="eta">
-                                      <h4>N/A</h4>
-                                    </div>
-
-                                    <section class="detail-bus-info">
-
-                                            <div class="bus-number">
-                                              <h5>20</h5>
-                                            </div>
-
-                                            <div class="bus-name">
-                                              <h5>Madison</h5>
-                                            </div>
-
-                                            <div class="frequency">
-                                              <h3>Resumes 12:10am</h3>
-                                            </div>
-
-                                    </section>
-
-                                    <div class="swipe-right">
-                                      <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-                                    </div>
-                              </li>
-                        <!-- BUS 157 -->
-                              <li class="bus-route-info">
-                                    <div class="eta">
-                                      <h4>N/A</h4>
-                                    </div>
-
-                                    <section class="detail-bus-info">
-
-                                            <div class="bus-number">
-                                              <h5>157</h5>
-                                            </div>
-
-                                            <div class="bus-name">
-                                              <h5>Streeterville/Taylor</h5>
-                                            </div>
-
-                                            <div class="frequency">
-                                              <h3>Resumes 6:00am</h3>
-                                            </div>
-
-                                    </section>
-
-                                    <div class="swipe-right">
-                                      <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-                                    </div>
-                              </li>
               </ul> <!-- close tag for .bus-info -->
+
+      </section>
+
+        <div class="status-bar-bottom">
+          <img src="images/status-bar-bottom.svg" alt="iOS Bottom of iPhone">
         </div>
+
     </section>
-
-    <div class="status-bar-bottom">
-      <img src="images/status-bar-bottom.svg" alt="iOS Bottom of iPhone">
-    </div>
-
-</section>
 
 </body>
